@@ -1,0 +1,412 @@
+20news:
+  dataset: '20news'
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: 'glove'
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+nyt:
+  dataset: 'nyt'
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: 'glove'
+  vocab_num: 8174
+  epsilon_g: 0.004
+  gamma_c: 2
+  gamma_g: 0.1
+  GMM_weight: 20
+  adj_alpha: 2
+AGnews:
+  dataset: 'AGnews'
+  batch_size: 512
+  epochs: 60
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: 'glove'
+  vocab_num: 4422
+  epsilon_g: 0.2
+  gamma_c: 0.5
+  gamma_g: 0.2
+  GMM_weight: 40
+  adj_alpha: 2
+
+20news_epsilon_g_0.001:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.001
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_epsilon_g_0.004:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_epsilon_g_0.01:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.01
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_epsilon_g_0.1:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.1
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_epsilon_g_0.4:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.4
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_c_0.1:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 0.1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_c_0.5:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 0.5
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_c_1:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_c_2:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 2
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_c_4:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 4
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_g_0.1:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.1
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_g_0.2:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_g_0.5:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.5
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_g_1:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 1
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_gamma_g_2:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_GMM_weight_5:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 5
+  adj_alpha: 2
+
+20news_GMM_weight_10:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 10
+  adj_alpha: 2
+
+20news_GMM_weight_20:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 20
+  adj_alpha: 2
+
+20news_GMM_weight_40:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 40
+  adj_alpha: 2
+
+20news_GMM_weight_80:
+  dataset: "20news"
+  batch_size: 512
+  epochs: 500
+  hidden_num: 300
+  learning_rate: 5.e-3
+  max_topic_num: 100
+  topic_num_1: 8
+  topic_num_2: 32
+  topic_num_3: 100
+  emb_type: "glove"
+  vocab_num: 3997
+  epsilon_g: 0.004
+  gamma_c: 1
+  gamma_g: 0.2
+  GMM_weight: 80
+  adj_alpha: 2
+
